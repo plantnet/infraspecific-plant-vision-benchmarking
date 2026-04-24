@@ -1,0 +1,23 @@
+name: infraspecific-plant-vision
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - pillow
+  - pyyaml
+  - tqdm
+  - wandb
+  - libgcc-ng
+  - libstdcxx-ng
+  - pip:
+      - torch==2.6.0
+      - torchvision==0.21.0
+      - torchaudio==2.6.0
+      - timm
+      - scikit-learn
+      - umap-learn

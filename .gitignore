@@ -1,0 +1,43 @@
+# --- Backups and Editor Artifacts ---
+# Emacs/Vim/System artifacts
+*~
+\#*\#
+.#*
+.DS_Store
+Thumbs.db
+
+# --- Python Environment ---
+# Exclude bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+build/
+dist/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb
+
+
+# --- Large Binary & Tabular Files ---
+# Exclude model weights, archives, and local metadata/results
+*.pth
+*.pth.tar
+*.zip
+*.tar.gz
+*.csv
+*.npy
+*.png
+
+# --- Logging and Visualization ---
+# Third-party tracking and visualization logs
+wandb/
+runs/
+.tensorboard/
+
+
