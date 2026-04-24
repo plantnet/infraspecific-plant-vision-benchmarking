@@ -102,16 +102,15 @@ python train.py --exclude-organ fruit [additional arguments...]
 
 ## 📝 Citation
 
-If you use this framework or datasets in your research, please use the **"Cite this repository"** button on GitHub or refer to the `CITATION.cff` file.
+Our manuscript is currently under review. If you use this code or our datasets in your research, please cite our work as follows:
 
 ```bibtex
-@article{YourName2026Infraspecific,
-  title={Benchmarking Vision Transformers and SSL for Infraspecific Plant Identification},
-  author={...},
-  journal={...},
+@unpublished{tibi2026geometric,
+  title={On the Role of Geometric Representations for Ultra-Fine-Grained Crop Variety Identification},
+  author={Tibi, Charlotte and Moummad, Ilyass and Joly, Alexis and Caraglio, Yves and Jenny, Christophe and Bonnet, Pierre and Goëau, Hervé},
+  note={Under review},
   year={2026}
-}
-```
+}```
 
 ---
 ## ⚖️ License

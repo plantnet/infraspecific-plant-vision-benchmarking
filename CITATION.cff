@@ -3,36 +3,47 @@ message: "If you use this software or the datasets, please cite it as below."
 authors:
   - family-names: "Tibi" # 
     given-names: "Charlotte"
-  - family-names: "Jenny"
-    given-names: "Christophe"
     affiliation: "CIRAD"
-  - family-names: "Goëau"
-    given-names: "Hervé"
-    affiliation: "CIRAD, UMR AMAP"
-  - family-names: "Bonnet"
-    given-names: "Pierre"
-    affiliation: "CIRAD, UMR AMAP"
+  - family-names: "Moummad" # 
+    given-names: "Ilyass"
+    affiliation: "Inria, LIRMM"
   - family-names: "Joly"
     given-names: "Alexis"
     affiliation: "Inria, LIRMM"
-title: "Infraspecific Plant Vision Benchmarking Framework"
+  - family-names: "Caraglio" # 
+    given-names: "Yves"
+    affiliation: "CIRAD"
+  - family-names: "Jenny"
+    given-names: "Christophe"
+    affiliation: "CIRAD"
+  - family-names: "Bonnet"
+    given-names: "Pierre"
+    affiliation: "CIRAD, UMR AMAP"
+  - family-names: "Goëau"
+    given-names: "Hervé"
+    affiliation: "CIRAD, UMR AMAP"
+title: "On the Role of Geometric Representations for Ultra-Fine-Grained Crop Variety Identification"
 version: 1.0.0
-doi: "10.5281/zenodo.XXXXXXX" # À mettre à jour après l'upload sur Zenodo
-date-released: 2026-02-06
-url: "https://github.com/votre-username/infraspecific-plant-vision-benchmarking"
+doi: "10.5281/zenodo.18701568" 
+date-released: 2026-04-23
+url: "https://github.com/plantnet/infraspecific-plant-vision-benchmarking"
 preferred-citation:
   type: article
   authors:
     - family-names: "Tibi"
       given-names: "Charlotte"
-    - family-names: "Jenny"
-      given-names: "Christophe"
-    - family-names: "Goëau"
-      given-names: "Hervé"
-    - family-names: "Bonnet"
-      given-names: "Pierre"
+    - family-names: "Moummad" 
+      given-names: "Ilyass"
     - family-names: "Joly"
       given-names: "Alexis"
-  journal: "Scientific Reports" # Ou votre journal cible
-  title: "Benchmarking Vision Transformers and SSL for Infraspecific Plant Identification"
+    - family-names: "Jenny"
+      given-names: "Christophe"
+    - family-names: "Caraglio" # 
+      given-names: "Yves"
+    - family-names: "Bonnet"
+      given-names: "Pierre"
+    - family-names: "Goëau"
+      given-names: "Hervé"
+  journal: "" #
+  title: "On the Role of Geometric Representations for Ultra-Fine-Grained Crop Variety Identification"
   year: 2026
