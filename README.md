@@ -10,7 +10,7 @@ The framework is designed to handle the unique challenges of fine-grained botani
 
 * **Observation-Level Voting**: Aggregates softmax probabilities across multiple images of the same plant individual (using the `tidy` identifier) to improve identification accuracy.
 * **Taxonomic Weight Analysis (Organ Ablation)**: Automated support for excluding specific botanical organs (e.g., fruit, leaf, habit) to quantify their contribution to variety identification.
-* **Unified Agnostic Pipeline**: Seamlessly switches between datasets (e.g., 87 Banana varieties or 22 Market Garden varieties) using a standardized metadata structure.
+* **Unified Agnostic Pipeline**: Seamlessly switches between datasets (e.g., 87 Banana varieties or 22 Market Garden varieties or 34 Grapevine varieties) using a standardized metadata structure.
 * **Modern Benchmarking**: Compares State-of-the-Art (SOTA) Vision Transformers (ViTs) against historical (ResNet50) and modern (ConvNeXt) CNNs.
 
 ---
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ├── data/
 │   ├── banana/             # Standardized Zenodo subset of iNaturalist observations (87 varieties)
 │   ├── market-garden/      # Novel vegetable variety dataset (22 varieties)
-│   └── grape_variety/      # Grapevine variety dataset
+│   └── grape_variety/      # Grapevine variety dataset (34 varieties)
 ├── models/
 │   └── factory.py          # Unified model creator for ViTs and CNNs
 ├── utils/
