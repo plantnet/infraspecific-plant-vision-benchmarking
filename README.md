@@ -42,7 +42,8 @@ pip install -r requirements.txt
 ```text
 ├── data/
 │   ├── banana/             # Standardized Zenodo subset of iNaturalist observations (87 varieties)
-│   └── market-garden/      # Novel vegetable variety dataset (22 varieties)
+│   ├── market-garden/      # Novel vegetable variety dataset (22 varieties)
+│   └── grape_variety/      # Grapevine variety dataset
 ├── models/
 │   └── factory.py          # Unified model creator for ViTs and CNNs
 ├── utils/
@@ -64,6 +65,7 @@ pip install -r requirements.txt
 Both datasets are hosted on Zenodo to ensure full reproducibility of the train/val/test splits and optimized training performance using `images_mini`.
 * **Infraspecific Banana Dataset**: [DOI Link Placeholder] (87 varieties).
 * **Market Garden Dataset**: [DOI Link Placeholder] (22 varieties).
+* **Grape Variety Dataset**: [DOI Link Placeholder] (34 varieties).
 
 ### Model Weights
 | Architecture | Pre-training | Accessibility |
@@ -102,14 +104,19 @@ python train.py --exclude-organ fruit [additional arguments...]
 
 ## 📝 Citation
 
-Our manuscript is currently under review. If you use this code or our datasets in your research, please cite our work as follows:
+If you use this code or our datasets in your research, please cite our work as follows:
 
 ```bibtex
-@unpublished{tibi2026geometric,
-  title={On the Role of Geometric Representations for Ultra-Fine-Grained Crop Variety Identification},
-  author={Tibi, Charlotte and Moummad, Ilyass and Joly, Alexis and Caraglio, Yves and Jenny, Christophe and Bonnet, Pierre and Goëau, Hervé},
-  note={Under review},
-  year={2026}
+@article{tibi2026geometric,
+title = {On the role of geometric representations for ultra-fine-grained crop variety identification},
+journal = {Smart Agricultural Technology},
+volume = {15},
+pages = {102442},
+year = {2026},
+issn = {2772-3755},
+doi = {https://doi.org/10.1016/j.atech.2026.102442},
+url = {https://www.sciencedirect.com/science/article/pii/S2772375526006672},
+author = {Charlotte Tibi and Ilyass Moummad and Alexis Joly and Yves Caraglio and Christophe Jenny and Pierre Bonnet and Hervé Goëau},
 }```
 
 ---
